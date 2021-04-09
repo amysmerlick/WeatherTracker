@@ -27,6 +27,7 @@ Open index.html in Chrome
 - [HTMLTAG](https://medium.com/@zac_heisey/7-alternatives-to-the-div-html-tag-7c888c7b5036)
 - [OpenWeather](https://openweathermap.org/api)
 - [GoogleFonts](https://fonts.google.com/)
+- [jQuery](https://code.jquery.com/)
 
 ***
 ### __Links__
