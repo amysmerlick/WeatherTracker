@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-image: url(../Images/clouds.jpg);
+    background-position: center;
+}
+
+button{
+    background-color: yellow;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 70px;
+    height: auto;
+    transition-duration: .4s;
+}
+
+button:hover {
+    background-color: yellow;
+}
+
+button:focus {
+    border: none;
+    outline-color: #b2bec3;
+}
+
+header {
+    background-color: transparent;
+    font-size: xx-large;
+    font-family: 'Delius', cursive;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    color: white;
+    margin-top: 0;
+}
+
+h1, h3, p, li {
+    font-family: 'Delius', cursive;;
+}
+
+header h1 {
+    margin: 0;
+    padding-top: 10px;
+}
+
+html {
+    height: 100%;
+}
+
+input {
+    border-radius: 5px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    max-width: 640px;
+    height: 100%;
+}
+
+.search {
+    padding: 25px;
+    background-color: transparent;
+    margin-left: 45px;
+}
+
+.search h1 {
+    line-height: 50px;
+    color: black;
+    text-align: center;
+}
+
+h1 {
+    color: black;
+}
+
+
+.forecast {
+    min-width: 640px;
+    padding: 12px 15px 15px 15px;
+    height: 50%;
+    margin-top: 25px;
+    border: solid 3px transparent;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: transparent;
+    color:black;
+    font-style: bold;
+    font-size: large;
+}
+
+
+ .five-day-container h1 {
+    margin-top: 75px;
+    margin-left: 5%;
+    color: black;
+}
+
+.card-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.five-day-card {
+    color: black;
+    font-size: larger;
+    font-style: bold;
+    background-color: transparent;
+    border: 2px solid black;
+    margin-left: 58.5px;
+    width: 175px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.five-day-container .card-text {
+    margin-bottom: 15px;
+    padding: 10px 30px 5px 10px;
+    font-style: bold;
+}
+
+.five-day-card h3 {
+    margin: 5px;
+}
+
+.five-day-card img {
+    margin-left: 10%;
+}
+
+.historyItems {
+    margin-top: 20px;
+}
+
+.historyItems:nth-child() {
+    margin-top: 20px;
+}
+
+img {
+    width: auto;
+    height: auto;
+}
+
+input {
+    height: 40px;
+    width: auto;
+}
+
+li:first-child {
+    height: 100%;
+    font-size: larger;
+    background-color: white;
+    border: solid 1px #cecfd2;
+    border-radius: 0px 0px 0px 0px;
+    padding: 12px 5px 12px 15px;
+    list-style: none;
+}
+
+li {
+    height: 100%;
+    font-size: larger;
+    background-color: white;
+    border: solid 1px #cecfd2;
+    border-radius: 0px 0px 0px 0px;
+    padding: 12px 5px 12px 15px;
+    list-style: none;
+}
+
+li:last-child {
+    height: 100%;
+    font-size: larger;
+    background-color: white;
+    border: solid 1px #cecfd2;
+    border-radius: 0px 0px 0px 0px;
+    padding: 12px 5px 12px 15px;
+    list-style: none;
+}
+
+.row {
+    display: flex;
+    line-height: 50%;
+    margin: 5px 5px 5px 0px;
+    font-style: bold;
+}
+
+.row * {
+    margin-right: 5px;
+}
