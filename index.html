@@ -5,9 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <link href="Assets\Images\clouds.jpg" rel="stylesheet" type="text/css" /> 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Delius&display=swap" rel="stylesheet">
+    <link href="Images/clouds.jpg" rel="stylesheet" type="text/css" /> 
+    <link href="https://fonts.googleapis.com/css2?family=Delius&display=swap" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="Assets/style.css">
     <title>Weather App</title>
 </head>
@@ -23,12 +22,12 @@
                 <h1><u>Search for a City:</u></h1>
             </div>
             <div class="row">
-                <input type="text" class="searchInput" placeholder="Harrisburg">
+                <input type="text" class="searchInput" placeholder="Harrisburg" id="search-term">
                 <button type="submit" class="searchBtn">Search
                 <i class="fas fa-search"></i>
                 </button>
             </div>
-            <div class="historyItems"></div>
+            <div class="storedHistory"></div>
         </div>
         <div class="col-two-container">
             <div class="forecast">
@@ -61,4 +60,6 @@
     
 </body>
 <script src="Assets/script.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDYwwQ-wTWZ6jI75jcsRz4if7dv30i5evo&libraries=places&callback=activatePlacesSearch"></script>
 </html>

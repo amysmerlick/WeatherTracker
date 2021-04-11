@@ -28,7 +28,6 @@ button:focus {
 }
 
 header {
-    background-color: transparent;
     font-size: xx-large;
     font-family: 'Delius', cursive;
     text-align: center;
@@ -65,7 +64,6 @@ input {
 
 .search {
     padding: 25px;
-    background-color: transparent;
     margin-left: 45px;
 }
 
@@ -81,14 +79,12 @@ h1 {
 
 
 .forecast {
-    min-width: 640px;
+    min-width: 700px;
     padding: 12px 15px 15px 15px;
     height: 50%;
     margin-top: 25px;
-    border: solid 3px transparent;
     margin-left: 20%;
     margin-right: 20%;
-    background-color: transparent;
     color:black;
     font-style: bold;
     font-size: large;
@@ -110,8 +106,7 @@ h1 {
     color: black;
     font-size: larger;
     font-style: bold;
-    background-color: transparent;
-    border: 5px solid black;
+    border: 3px solid black;
     margin-left: 5px;
     width: 150px;
     height: auto;
@@ -132,11 +127,11 @@ h1 {
     margin-left: 10%;
 }
 
-.historyItems {
+.storedHistory {
     margin-top: 20px;
 }
 
-.historyItems:nth-child() {
+.storedHistory:nth-child() {
     margin-top: 20px;
 }
 
@@ -153,8 +148,7 @@ input {
 li:first-child {
     height: 100%;
     font-size: larger;
-    background-color: white;
-    border: solid 1px #cecfd2;
+    font-weight: bold;;
     border-radius: 0px 0px 0px 0px;
     padding: 12px 5px 12px 15px;
     list-style: none;
@@ -163,8 +157,8 @@ li:first-child {
 li {
     height: 100%;
     font-size: larger;
-    background-color: white;
-    border: solid 1px #cecfd2;
+    font-weight: bold;
+    background-color: transparent;
     border-radius: 0px 0px 0px 0px;
     padding: 12px 5px 12px 15px;
     list-style: none;
@@ -173,11 +167,8 @@ li {
 li:last-child {
     height: 100%;
     font-size: larger;
-    background-color: white;
-    border: solid 1px #cecfd2;
-    border-radius: 0px 0px 0px 0px;
     padding: 12px 5px 12px 15px;
-    list-style: none;
+
 }
 
 .row {

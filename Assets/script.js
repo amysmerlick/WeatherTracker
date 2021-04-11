@@ -6,14 +6,14 @@ var searchInput = $(".searchInput");
 var locationNameEl = $(".locationName");
 var currentDateEl = $(".currentDate");
 var weatherIconEl = $(".weatherIcon");
-var searchHistoryEl = $(".historyItems");
+var searchHistoryEl = $(".storedHistory");
 
 // Right column locations
 var temperatureEl = $(".temperature");
 var humidityEl = $(".humidity");
 var windSpeedEl = $(".windSpeed");
 var uvIndexEl = $(".uvIndex");
-var cardRow = $(".card-row");
+var cardRow= $(".card-row");
 
 // Create a current date variable
 var today = new Date();
@@ -40,7 +40,7 @@ searchBtn.on("click", function(e) {
 });
 
 $(document).on("click", ".historyEntry", function() {
-    console.log("clicked history item")
+    console.log("clicked stored history")
     var thisElement = $(this);
     weatherSearch(thisElement.text());
 })
@@ -161,3 +161,12 @@ function createForecastCard(date, icon, temp, humidity) {
     cardHumidity.text(`Humidity: ${humidity}%`);
     fiveDaysCardEl.append(dateCard, cardIcon, cardTemperature, cardHumidity);
 }
+
+function activatePlacesSearch() {
+    let options = {
+        types: ['(regions)']
+    };
+    let input = document.getElementById('search-term');
+    let autocomplete = new google.maps.places.Autocomplete(input, options);
+}
+

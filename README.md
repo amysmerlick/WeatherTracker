@@ -3,7 +3,7 @@
 
 # _**Introduction**_
 ***
-Penn LPS Coding Bootcamp has assigned us with the task of creating our very own portfolio that can showcase our progress over the next 24 weeks. This portfolio has been quite challenging, as we had to build code from scratch. I used the tools I learned from the first 2 weeks of class. This portfolio was built using CSS techniques. I look forward to expanding my portfolio over the course of this bootcamp to track my progress.
+Third-party APIs allow developers to access their data and functionality by making requests with specific parameters to a URL. Developers are often tasked with retrieving data from another application's API and using it in the context of their own. We have been challenged to create and build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS. Using the [OpenWeather API](https://openweathermap.org/api) we will be able to retrieve weather data for cities. 
 
 ***
 ### __Installation__
@@ -28,6 +28,8 @@ Open index.html in Chrome
 - [OpenWeather](https://openweathermap.org/api)
 - [GoogleFonts](https://fonts.google.com/)
 - [jQuery](https://code.jquery.com/)
+- [StackOverflow](https://stackoverflow.com/questions/52248646/googlemaps-api-key-for-testing) 
+- [GoogleMapsAPI](https://console.cloud.google.com/apis/agreements?project=weather-tracker)
 
 ***
 ### __Links__
